@@ -1,0 +1,130 @@
+/* Boutons Vannes & pompes */ 
+QPushButton#bouton {
+    background-image: url(":/images/off");
+    background-position : center;
+    background-repeat: no-repeat;
+    border-color: red;
+    border-style: outset;
+    border-width: 5px;
+    border-radius: 10px;
+    text-align : left;
+    min-width: 5em; 
+    padding: 6px;
+}
+QPushButton#bouton::pressed {
+    border-width : 4px;
+}
+
+QPushButton#bouton:checked {
+    background-image: url(":/images/on");
+    background-position : center;
+    background-repeat: no-repeat;
+    border-color: green;
+    text-align : right;
+}
+
+/* Boutons vidange */
+QPushButton#vidange {
+    color : black;
+    background-color : #137508;
+    border-radius : 3px;
+    border : 2px solid gray;
+}
+
+QPushButton#vidange:hover {
+    background-color : red; 
+}
+
+QPushButton#vidange:pressed {
+    background-color : #750606;
+}
+
+
+/* Bouton retour */
+QPushButton#retour {
+    border : 0px;
+    font-size : 20px;
+    color : green;
+    font : bold;
+}
+
+QPushButton#retour:hover {
+    font-size : 23px;
+}
+
+/* Bouton pause */
+QPushButton#pause , QPushButton#next {
+    border : 0px;
+    font : bold;
+    font-size : 25px;
+    color : #038007;
+}
+
+QPushButton#pause:hover, QPushButton#next:hover {
+    color : #07ad0c;
+}
+
+/* Radio button */
+QRadioButton {
+    border:1px white; 
+    color:white; 
+    background-color: 
+    solid grey;
+} 
+QRadioButton::checked {
+    color : green;
+}
+QRadioButton::indicator {
+    width: 10px; 
+    height: 10px; 
+    border-radius: 7px;
+}
+QRadioButton::indicator:checked {
+    background-color: green; 
+    border: 2px solid white;
+}
+
+/* Progress bars */ 
+QProgressBar { 
+    text-align: center;
+    color : white;
+    margin : 2px;
+}
+QProgressBar::chunk {
+    background-color: qlineargradient( x1:0 y1:0, x2:0 y2:1, stop:0 cyan, stop:1 blue);
+    margin : 2px;
+}
+
+/* Tank group box */ 
+QGroupBox#tank { 
+    background-color: #1c1c1b;
+    color:white; 
+    border-style: outset;
+    border-width: 3px;
+    border-color: green;
+    font-size : 20px; 
+    margin-top : 16px;
+    min-width: 10em; 
+    padding: 6px; 
+}
+QGroupBox#tank::title { 
+    subcontrol-origin: margin; 
+    font : 20px bold 'BebasNeue'; 
+    left: 15px; 
+    padding: 0px 5px 0px 5px;
+}
+
+/* Pompe group box */
+QGroupBox#pompe { 
+    background-color: #1c1c1b;
+    color:white;
+    border-style: outset;
+    border-width: 2px;
+    border-color: green; 
+    min-width: 5em; 
+    padding: 2px; 
+    margin-top : 6px;
+    font : bold 10px; 
+    font-size : 12px;
+}
+

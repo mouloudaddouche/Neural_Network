@@ -1,0 +1,35 @@
+
+/* Title & Logged in message */
+QLabel {
+    color : white;
+}
+
+/* Boutons */
+QPushButton#select {
+    border: 0px;
+    color : white; 
+    font-size: 60px; 
+}
+
+QPushButton#select:hover {
+    color : #14E7FB;
+    font-size : 70px;
+}
+
+/* Bouton retour */
+QPushButton#retour {
+    color : white;
+    border : 0px;
+    font : bold;
+    font-size : 22px;
+}
+
+QPushButton#retour:hover {
+    color : #B6F9F9;
+    font-size : 26px;
+}
+
+/* Message Box */
+QMessageBox QLabel {
+    color : black;
+}

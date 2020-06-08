@@ -1,0 +1,129 @@
+
+/* Title & Labels*/
+QLabel {
+    color : black;
+}
+
+/* Group boxes */
+QGroupBox {
+    background-color: #bdbbb9;
+    color: black; 
+    border-style: outset;
+    border-width: 3px;
+    border-color: black;
+    font : 25px bold ; 
+    margin-top : 16px;
+    min-width: 10em; 
+    padding: 6px; 
+}
+
+QGroupBox::title { 
+    subcontrol-origin: margin; 
+    left: 30px; 
+    top : 25px;
+}
+
+QGroupBox QPushButton {
+    background-color : #858482;
+    color : black;
+    border-style : inset;
+    border : 3px solid black;
+    border-radius : 10px;
+    font : bold;
+    font-size : 26px;
+    height : 90%;
+}
+
+QGroupBox QPushButton:hover {
+    background-color : #787777;
+    color : #0d0d0c;
+}
+
+QGroupBox QPushButton:pressed {
+    border-width : 2px;
+    font-size : 24px;
+    background-color : #999696;
+}
+
+QGroupBox QPushButton#retour {
+    background-color : none;
+    height : 28%;
+    border : 0px;
+    color : black;
+}
+
+QGroupBox QPushButton#retour:hover {
+    background-color : none;
+    font-size : 30px;
+}
+
+QGroupBox QPushButton#retour:pressed{
+    font-size : 20px;
+}
+
+QGroupBox QPushButton#close {
+    background-color : none;
+    border : 0px;
+    height : 29%;
+    margin-right : 30px;
+    min-width : 25px;
+    max-width : 35px;
+}
+
+QGroupBox QPushButton#close:hover, QPushButton#accept:hover {
+    background-color : none;
+}
+
+QGroupBox QPushButton#accept {
+    background-color : none;
+    border : 0px;
+    height : 32%;
+    min-width : 25px;
+    max-width : 35px;
+}
+
+QPushButton#layer {
+    border : 4px solid black;
+    border-radius : 10px;
+    background-color : #b8b4a9;
+}
+
+QPushButton#layer:pressed {
+    border-width : 3px;
+}
+
+QPushButton#layer QPushButton {
+    background-color: #911209;
+    border-style: solid;
+    border-width:2px;
+    border-color : black;
+    border-radius: 15px;
+    max-width:30px;
+    max-height:30px;
+    min-width:30px;
+    min-height:30px;
+}
+
+QPushButton#layer QPushButton:hover {
+    background-color : #c7180c ;
+}
+
+QPushButton#layer QPushButton:pressed {
+    border-width : 1px;
+    background-color : #5c0b06;
+}
+
+QGroupBox#parameters {
+    border-top : 0px;
+}
+
+QGroupBox#parameters QGroupBox {
+        border : 0px;
+        margin-top : 16px;
+        min-width: 0; 
+        padding: 0px;
+}
+
+QMessageBox QLabel {
+    color : black;
+}

@@ -1,0 +1,74 @@
+
+/* Title & Labels*/
+QLabel {
+    color : black;
+}
+
+/* Group boxes */
+QGroupBox#parameters {
+    background-color: #bdbbb9;
+    color: black; 
+    border-style: outset;
+    border-width: 3px;
+    border-color: #858482;
+    font : 25px bold ;
+}
+
+QGroupBox#chart {
+    border : 0px;
+}
+
+QGroupBox#setting {
+    background-color : #858482;
+    border : 2px solid gray;
+    border-radius : 10px;
+    font : 25px bold ; 
+    border : 0px;
+    margin-top : 45px;
+    margin-bottom : 0px;
+    min-width: 0; 
+    padding: 0px;
+    height : 6%;
+}
+
+QGroupBox#parameters::title { 
+    subcontrol-origin: margin; 
+    left: 30px; 
+    top : 25px;
+}
+
+QGroupBox#parameters QPushButton {
+    background-color : #858482;
+    color : black;
+    border : 3px solid #858482;
+    border-radius : 10px;
+    height : 90%;
+    width : 60%;
+}
+
+QGroupBox#parameters QPushButton:hover {
+    background-color : #999696;
+    color : #0d0d0c;
+}
+
+QGroupBox#parameters QPushButton:pressed {
+    border-width : 2px;
+    font-size : 28px;
+    background-color : #787777;
+}
+
+QGroupBox QPushButton#retour {
+    background-color : none;
+    height : 28%;
+    border : 0px;
+    color : black;
+}
+
+QGroupBox QPushButton#retour:hover {
+    background-color : none;
+    font-size : 30px;
+}
+
+QGroupBox QPushButton#retour:pressed{
+    font-size : 20px;
+}
