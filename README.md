@@ -21,8 +21,8 @@ sudo apt install python2.7 python2.7-pip
 ## Technologie utilisée
 
 - [Python](https://www.python.org/) - Langage de programmation de l'application.
-- [Qt](https://www.qt.io/) - une API orientée objet utilisé pour dévlopper l'interface
+- [Qt](https://www.qt.io/) - une API orientée objet utilisé pour dévlopper l'interface.
 
 ## Utilisation
-il suffit de se positionner dans le dossier Project et lancer la commande : python2.7 Application.py
+il suffit de se positionner dans le dossier Project et lancer la commande : python2.7 Application.py.
 
