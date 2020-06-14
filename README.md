@@ -24,5 +24,5 @@ sudo apt install python2.7 python2.7-pip
 - [Qt](https://www.qt.io/) - une API orientée objet utilisé pour dévlopper l'interface.
 
 ## Utilisation
-il suffit de se positionner dans le dossier Project et lancer la commande : python2.7 Application.py.
+il suffit de se positionner dans le dossier Project et lancer la commande : python2.7 Application.py .
 
